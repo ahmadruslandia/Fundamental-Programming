@@ -6,9 +6,9 @@ int main()
 {
 	int i;
 	
-	cout << "Masukkan Data berupa angka : ";
+	cout << "Masukkan Data Berupa Angka : ";
 	cin >> i;
-	cout << "Output dari Data yang diinputkan : " << i << endl;
+	cout << "Output dari Data yang Di Inputkan : " << i << endl;
 	
 	return 0;
 }

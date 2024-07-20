@@ -23,16 +23,21 @@
 	?>
 
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Masukkan Data berupa angka : <input type="text" name="i">
-		<br>
-		<br>
-		<input type="submit" name="submit" value="Submit">
+		<div>
+			<div>
+				<label>Masukkan Data Berupa Angka : </label>
+				<input type="text" name="i">
+			</div>
+			<br>
+			<div>
+				<input type="submit" name="submit" value="Submit">
+			</div>
+		</div>
 	</form>
 
 	<?php
 	echo "<br>";
-	echo "<br>";
-	echo "Output dari Data yang diinputkan : ", $i;
+	echo "Output dari Data yang Di Inputkan : ", $i;
 	?>
 
 </body>

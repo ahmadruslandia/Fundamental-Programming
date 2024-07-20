@@ -8,10 +8,10 @@ namespace Main
         {
             int i;
             
-            Console.Write("Masukkan Data berupa angka : ");
+            Console.Write("Masukkan Data Berupa Angka : ");
             i = int.Parse(Console.ReadLine());
             
-            Console.WriteLine($"Output dari Data yang diinputkan : {i}");
+            Console.WriteLine($"Output dari Data yang Di Inputkan : {i}");
         }
     }
 }

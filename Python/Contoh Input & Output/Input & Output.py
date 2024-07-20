@@ -1,3 +1,3 @@
-﻿i = input("Masukkan Data berupa angka : ")
+﻿i = input("Masukkan Data Berupa Angka : ")
 
-print ("Output dari Data yang diinputkan : ", i)
+print ("Output dari Data yang Di Inputkan : ", i)

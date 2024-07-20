@@ -33,7 +33,7 @@
 		<td><br><br></td>
 	</tr>
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Masukkan Data berupa angka : <input type="text" name="pil">
+		Silahkan Masukan Angka : <input type="text" name="pil">
 		<br>
 		<br>
 		<input type="submit" name="submit" value="Submit">

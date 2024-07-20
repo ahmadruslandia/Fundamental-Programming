@@ -5,9 +5,9 @@ public class Main {
         Scanner terminalInput = new Scanner(System.in);
         int i;
 
-        System.out.print("Masukkan Data berupa angka : ");
+        System.out.print("Masukkan Data Berupa Angka : ");
         i = terminalInput.nextInt();
-        System.out.print("Output dari Data yang diinputkan : " + i);
+        System.out.print("Output dari Data yang Di Inputkan : " + i);
 
     }
 
