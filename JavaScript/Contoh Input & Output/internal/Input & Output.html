@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Input & Output</title>
+</head>
+
+<body>
+
+	<form>
+		<div>
+			<div>
+				<label for="i">Masukkan Data Berupa Angka : </label>
+				<input type="text" id="i">
+			</div>
+			<br>
+			<div>
+				<input type="button" id="input1" value="Submit">
+			</div>
+		</div>
+		<br>
+		<div>
+			<label>Output dari Data yang Di Inputkan : </label>
+			<span id="output1"></span>
+		</div>
+	</form>
+	<br>
+
+</body>
+
+<script>
+	const txt1 = document.getElementById('i');
+	const btn1 = document.getElementById('input1');
+	const out1 = document.getElementById('output1');
+	
+	function fun1() {
+		out1.innerHTML = txt1.value;
+	}
+	btn1.addEventListener('click', fun1);
+</script>
+
+</html>
