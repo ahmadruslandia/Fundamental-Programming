@@ -3,6 +3,6 @@ huruf[0] = "a";
 huruf[1] = "b";
 huruf[2] = "c"; 
 
-document.getElementById("hrf1").innerHTML = huruf[0];
-document.getElementById("hrf2").innerHTML = huruf[1];
-document.getElementById("hrf3").innerHTML = huruf[2];
+document.getElementById("hrf1").innerHTML = "Huruf: " + huruf[0] + "<br>";
+document.getElementById("hrf2").innerHTML = "Huruf: " + huruf[1] + "<br>";
+document.getElementById("hrf3").innerHTML = "Huruf: " + huruf[2] + "<br>";

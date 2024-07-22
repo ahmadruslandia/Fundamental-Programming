@@ -10,5 +10,5 @@ huruf[7] = "h";
 huruf[8] = "i"; 
 huruf[9] = "j"; 
 
-document.getElementById("hrf1").innerHTML = huruf[1];
-document.getElementById("hrf9").innerHTML = huruf[9];
+document.getElementById("hrf1").innerHTML = "Huruf: " + huruf[1] + "<br>";
+document.getElementById("hrf9").innerHTML = "Huruf: " + huruf[9] + "<br>";
