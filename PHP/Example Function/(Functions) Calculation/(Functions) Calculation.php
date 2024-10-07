@@ -38,13 +38,13 @@
 
 	<?php
 	if ($pilihan == "1") {
-		header("location: pertambahan.php", true, 301);
+		header("location: addition.php", true, 301);
 	} elseif ($pilihan == "2") {
-		header("location: pengurangan.php", true, 301);
+		header("location: subtraction.php", true, 301);
 	} elseif ($pilihan == "3") {
-		header("location: perkalian.php", true, 301);
+		header("location: multiplication.php", true, 301);
 	} elseif ($pilihan == "4") {
-		header("location: pembagian.php", true, 301);
+		header("location: division.php", true, 301);
 	} else {
 		echo " ";
 	}
