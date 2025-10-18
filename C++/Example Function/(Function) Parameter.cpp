@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void parameter(string huruf){
-	cout << "Contoh Parameter : " << huruf << endl;
+void parameter(string varlttr){
+	cout << "Example Parameter : " << varlttr << endl;
 }
 
 int main(){

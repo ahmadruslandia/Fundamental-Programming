@@ -1,73 +1,73 @@
 #include <iostream>
 using namespace std;
 
-void pertambahan(int a, int b) {
+void addition(int a, int b) {
 	cout << "--------- +" << endl;
-	cout << "Hasil : " << a + b << endl;
+	cout << "Result : " << a + b << endl;
 }
 
-void pengurangan(int a, int b) {
+void subtraction(int a, int b) {
 	cout << "--------- -" << endl;
-	cout << "Hasil : " << a - b << endl;
+	cout << "Result : " << a - b << endl;
 }
 
-void perkalian(int a, int b) {
+void multiplication(int a, int b) {
 	cout << "--------- *" << endl;
-	cout << "Hasil : " << a * b << endl;
+	cout << "Result : " << a * b << endl;
 }
 
-void pembagian(int a, int b) {
+void division(int a, int b) {
 	cout << "--------- :" << endl;
-	cout << "Hasil : " << a / b << endl;
+	cout << "Result : " << a / b << endl;
 }
 
 int main() {
 	int a, b;
-	int pilihan;
+	int varchc;
 
 	cout << "Menu\n" << endl;
-	cout << "1. Pertambahan " << endl;
-	cout << "2. Pengurangan " << endl;
-	cout << "3. Perkalian" << endl;
-	cout << "4. Pembagian \n" << endl;
-	cout << "Masukkan Pilihan : ";
-	cin >> pilihan;
+	cout << "1. Addition " << endl;
+	cout << "2. Subtraction " << endl;
+	cout << "3. Multiplication" << endl;
+	cout << "4. Division \n" << endl;
+	cout << "Enter : ";
+	cin >> varchc;
 
 
-	if (pilihan == 1) {
-		cout << "\nSilahkan Masukkan Angka \n" << endl;
-		cout << "Angka : ";
+	if (varchc == 1) {
+		cout << "\nPlease Enter Number \n" << endl;
+		cout << "Number : ";
 		cin >> a;
-		cout << "Angka : ";
+		cout << "Number : ";
 		cin >> b;
-		pertambahan(a, b);
+		addition(a, b);
 	}
-	else if (pilihan == 2) {
-		cout << "\nSilahkan Masukkan Angka \n" << endl;
-		cout << "Angka : ";
+	else if (varchc == 2) {
+		cout << "\nPlease Enter Number \n" << endl;
+		cout << "Number : ";
 		cin >> a;
-		cout << "Angka : ";
+		cout << "Number : ";
 		cin >> b;
-		pengurangan(a, b);
+		subtraction(a, b);
 	}
-	else if (pilihan == 3) {
-		cout << "\nSilahkan Masukkan Angka \n" << endl;
-		cout << "Angka : ";
+	else if (varchc == 3) {
+		cout << "\nPlease Enter Number \n" << endl;
+		cout << "Number : ";
 		cin >> a;
-		cout << "Angka : ";
+		cout << "Number : ";
 		cin >> b;
-		perkalian(a, b);
+		multiplication(a, b);
 	}
-	else if (pilihan == 4) {
-		cout << "\nSilahkan Masukkan Angka \n" << endl;
-		cout << "Angka : ";
+	else if (varchc == 4) {
+		cout << "\nPlease Enter Number \n" << endl;
+		cout << "Number : ";
 		cin >> a;
-		cout << "Angka : ";
+		cout << "Number : ";
 		cin >> b;
-		pembagian(a, b);
+		division(a, b);
 	}
 	else {
-		cout << "Masukkan pilihan (1..4)" << endl;
+		cout << "Enter Your Choice (1..4)" << endl;
 	}
 
 	return 0;

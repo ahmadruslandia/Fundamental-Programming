@@ -6,9 +6,9 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            char[] huruf = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j' };
-            Console.WriteLine($"Huruf : {huruf[1]}");
-            Console.WriteLine($"Huruf : {huruf[9]}");
+            char[] varlttr = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j' };
+            Console.WriteLine($"Letter : {varlttr[1]}");
+            Console.WriteLine($"Letter : {varlttr[9]}");
         }
     }
 }

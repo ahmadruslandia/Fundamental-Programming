@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
 
-	char huruf[10] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
-	cout << "Huruf : " << huruf[1] << endl;
-	cout << "Huruf : " << huruf[9] << endl;
+	char varlttr[10] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
+	cout << "Letter : " << varlttr[1] << endl;
+	cout << "Letter : " << varlttr[9] << endl;
 
 }

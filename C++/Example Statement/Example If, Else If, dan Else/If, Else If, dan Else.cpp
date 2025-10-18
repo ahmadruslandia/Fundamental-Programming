@@ -6,20 +6,20 @@ int main()
 {
 	int pil;
 	cout << "Menu :\n" << endl;
-	cout << "Masukan Angka : 1 Contoh If" << endl;
-	cout << "Masukan Angka : 2 Contoh Else If" << endl;
-	cout << "Masukan Angka Selain 1 dan 2 Untuk Contoh Else\n" << endl;
-	cout << "Silahkan Masukan Angka : ";
+	cout << "Enter Number : 1 for Example If" << endl;
+	cout << "Enter Number : 2 for Example Else If" << endl;
+	cout << "Enter Number other 1 and 2 for Example Else\n" << endl;
+	cout << "Please Enter Number : ";
 	cin >> pil;
 
 	if (pil == 1) {
-		cout << "\nini Adalah Contoh If" << endl;
+		cout << "\nExample If" << endl;
 	}
 	else if (pil == 2) {
-		cout << "\nini Adalah Contoh Else If" << endl;
+		cout << "\nExample Else If" << endl;
 	}
 	else {
-		cout << "\nini Adalah Contoh Else" << endl;
+		cout << "\nExample Else" << endl;
 	}
 
 	return 0;

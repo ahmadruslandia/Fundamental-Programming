@@ -8,7 +8,7 @@ namespace Main
         {
             for (int i = 10; i > 0; i--)
             {
-                Console.WriteLine($"Perulangan For - {i}");
+                Console.WriteLine($"Looping For - {i}");
             }
         }
     }

@@ -1,8 +1,8 @@
-const huruf = [];
-huruf[0] = "a";
-huruf[1] = "b";
-huruf[2] = "c"; 
+const letter = [];
+letter[0] = "a";
+letter[1] = "b";
+letter[2] = "c"; 
 
-document.getElementById("hrf1").innerHTML = "Huruf: " + huruf[0] + "<br>";
-document.getElementById("hrf2").innerHTML = "Huruf: " + huruf[1] + "<br>";
-document.getElementById("hrf3").innerHTML = "Huruf: " + huruf[2] + "<br>";
+document.getElementById("lttr1").innerHTML = "Letter: " + letter[0] + "<br>";
+document.getElementById("lttr2").innerHTML = "Letter: " + letter[1] + "<br>";
+document.getElementById("lttr3").innerHTML = "Letter: " + letter[2] + "<br>";

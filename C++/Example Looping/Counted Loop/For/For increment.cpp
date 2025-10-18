@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
 	for (int i = 0; i < 10; i++){
-		cout << "Perulangan For - " << i << endl;
+		cout << "Looping For - " << i << endl;
 	}
 
 	return 0;

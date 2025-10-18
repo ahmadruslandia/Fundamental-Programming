@@ -25,7 +25,7 @@
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 		<div>
 			<div>
-				<label>Masukkan Data Berupa Angka : </label>
+				<label>Enter the Number : </label>
 				<input type="text" name="i">
 			</div>
 			<br>
@@ -37,7 +37,7 @@
 
 	<?php
 	echo "<br>";
-	echo "Output dari Data yang Di Inputkan : ", $i;
+	echo "Your Data Input : ", $i;
 	?>
 
 </body>

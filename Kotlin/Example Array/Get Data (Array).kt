@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
-    val huruf = arrayOf('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j')
+    val varlttr = arrayOf('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j')
 
-    println("Huruf : "+ huruf[1])
-    println("Huruf : "+ huruf[9])
+    println("Letter : "+ varlttr[1])
+    println("Letter : "+ varlttr[9])
 }

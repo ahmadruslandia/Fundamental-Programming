@@ -1,8 +1,8 @@
-const huruf = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+const letter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 
 let text = "";
-for (let i = 0; i < huruf.length; i++) {
-  text += "Huruf : " + huruf[i] + "<br>";
+for (let i = 0; i < letter.length; i++) {
+  text += "Letter : " + letter[i] + "<br>";
 }
 
-document.getElementById("hrf").innerHTML = text;
+document.getElementById("lttr").innerHTML = text;

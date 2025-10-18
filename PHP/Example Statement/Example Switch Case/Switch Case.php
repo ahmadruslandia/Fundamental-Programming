@@ -2,16 +2,16 @@
 <html>
 
 <head>
-	<title>Contoh Switch Case</title>
+	<title>Example Switch Case</title>
 </head>
 
 <body>
 
 	<?php
-	$pilihan = "";
+	$varchc = "";
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$pilihan = test_input($_POST["pilihan"]);
+		$varchc = test_input($_POST["varchc"]);
 	}
 
 	function test_input($data)
@@ -26,41 +26,41 @@
 	<tr>
 		<td>Menu :</td>
 		<td><br><br></td>
-		<td>1. Contoh Ke Satu</td>
+		<td>1. First Example</td>
 		<td><br></td>
-		<td>2. Contoh Ke Dua</td>
+		<td>2. Second Example</td>
 		<td><br></td>
-		<td>3. Contoh Ke Tiga</td>
+		<td>3. Third Example</td>
 		<td><br></td>
-		<td>4. Contoh Ke Empat</td>
+		<td>4. Fourth Example</td>
 		<td><br></td>
-		<td>Masukan Pilihan : </td>
+		<td>Enter your Choice : </td>
 		<td><br><br></td>
 	</tr>
 
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Masukan Pilihan : <input type="text" name="pilihan">
+		Enter your Choice : <input type="text" name="varchc">
 		<br>
 		<br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
 
 	<?php
-	switch ($pilihan) {
+	switch ($varchc) {
 		case "1":
-			echo "<br>Contoh Ke-1 Berhasil Dicoba";
+			echo "<br>Example 1st Succeed";
 			break;
 		case "2":
-			echo "<br>Contoh Ke-2 Berhasil Dicoba";
+			echo "<br>Example 2nd Succeed";
 			break;
 		case "3":
-			echo "<br>Contoh Ke-3 Berhasil Dicoba";
+			echo "<br>Example 3rd Succeed";
 			break;
 		case "4":
-			echo "<br>Contoh Ke-4 Berhasil Dicoba";
+			echo "<br>Example 4th Succeed";
 			break;
 		default:
-			echo "Masukkan Pilihan Dengan Benar";
+			echo "Enter your Choice Correctly";
 	}
 	?>
 

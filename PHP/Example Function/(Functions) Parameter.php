@@ -2,15 +2,15 @@
 <html>
 
 <head>
-	<title>Contoh Fungsi</title>
+	<title>Example Function</title>
 </head>
 
 <body>
 
 	<?php
-	function parameter($huruf)
+	function parameter($varlttr)
 	{
-		echo "Contoh Parameter : ", $huruf, "<br>";
+		echo "Example Parameter : ", $varlttr, "<br>";
 	}
 	parameter("a");
 	parameter("b");

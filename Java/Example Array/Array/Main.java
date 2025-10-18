@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        char[] huruf = {'a', 'b', 'c'};
+        char[] varlttr = {'a', 'b', 'c'};
 
-        System.out.println("Huruf : " + huruf[0]);
-        System.out.println("Huruf : " + huruf[1]);
-        System.out.println("Huruf : " + huruf[2]);
+        System.out.println("Letter : " + varlttr[0]);
+        System.out.println("Letter : " + varlttr[1]);
+        System.out.println("Letter : " + varlttr[2]);
     }
 }

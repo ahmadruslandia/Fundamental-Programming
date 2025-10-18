@@ -9,7 +9,7 @@
 
 	<?php
 	for ($i = 0; $i < 10; $i++) {
-		echo "Perulangan For - $i <br>";
+		echo "Looping For - $i <br>";
 	}
 	?>
 

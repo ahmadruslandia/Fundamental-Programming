@@ -3,28 +3,28 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args ) {
-        boolean ulang = true;
-        String jawab;
+        boolean vartry = true;
+        String varchc;
         int i = 0;
         Scanner input = new Scanner(System.in);
 
-        while (ulang) {
+        while (vartry) {
             System.out.println(" ");
-            System.out.println("Masukkan huruf y untuk contoh perulangan");
+            System.out.println("Enter y for Example");
             System.out.println(" ");
-            System.out.print("Masukkan huruf : ");
-            jawab = input.next();
+            System.out.print("Enter : ");
+            varchc = input.next();
 
-            if( jawab.equalsIgnoreCase("y") ){
-                ulang = true;
+            if( varchc.equalsIgnoreCase("y") ){
+                vartry = true;
             }
             else{
-                ulang = false;
+                vartry = false;
             }
             i++;
         }
         System.out.println(" ");
-        System.out.println("Selesai");
+        System.out.println("Done");
     }
 
 

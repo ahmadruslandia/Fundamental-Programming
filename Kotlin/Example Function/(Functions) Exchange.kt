@@ -1,4 +1,4 @@
-fun tukar(a: Int, b: Int) {
+fun exchange(a: Int, b: Int) {
         var temp: Int
         temp = a
         var a = b
@@ -10,5 +10,5 @@ fun tukar(a: Int, b: Int) {
 fun main(args: Array<String>) {
         var a = 1
         var b = 2
-        tukar(a, b)
+        exchange(a, b)
 }

@@ -1,4 +1,4 @@
 ﻿x = 10
 
 for i in range(x):
-    print(f"Perulangan For - {i}")
+    print(f"Looping For - {i}")

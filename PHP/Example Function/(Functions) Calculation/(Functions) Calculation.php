@@ -2,15 +2,15 @@
 <html>
 
 <head>
-	<title>Contoh Fungsi Hitung</title>
+	<title>Example Function Calculation</title>
 </head>
 
 <body>
 
 	<?php
-	$pilihan = "";
+	$varchc = "";
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$pilihan = test_input($_POST["pilihan"]);
+		$varchc = test_input($_POST["varchc"]);
 	}
 
 	function test_input($data)
@@ -24,26 +24,26 @@
 
 	<?php
 	echo "Menu<br>";
-	echo "1. Pertambahan" . "<br>";
-	echo "2. Pengurangan" . "<br>";
-	echo "3. Perkalian	" . "<br>";
-	echo "4. Pembagian	" . "<br>" . "<br>";
+	echo "1. Addition" . "<br>";
+	echo "2. Subraction" . "<br>";
+	echo "3. Multiplication	" . "<br>";
+	echo "4. Division	" . "<br>" . "<br>";
 	?>
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Masukkan Pilihan : <input type="text" name="pilihan">
+		Enter : <input type="text" name="varchc">
 		<br>
 		<br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
 
 	<?php
-	if ($pilihan == "1") {
+	if ($varchc == "1") {
 		header("location: addition.php", true, 301);
-	} elseif ($pilihan == "2") {
+	} elseif ($varchc == "2") {
 		header("location: subtraction.php", true, 301);
-	} elseif ($pilihan == "3") {
+	} elseif ($varchc == "3") {
 		header("location: multiplication.php", true, 301);
-	} elseif ($pilihan == "4") {
+	} elseif ($varchc == "4") {
 		header("location: division.php", true, 301);
 	} else {
 		echo " ";

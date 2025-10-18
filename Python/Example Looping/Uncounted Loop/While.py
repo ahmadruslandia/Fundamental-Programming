@@ -2,11 +2,11 @@
 
 while(True):
     print(" ")
-    print("Masukkan huruf y untuk contoh perulangan ")
+    print("Enter y for Example")
     print(" ")
-    ulang = input("Masukkan huruf : ")
+    ulang = input("Enter : ")
     if ulang != 'y':
         print(" ")
-        print("Selesai")
+        print("Done")
         break
 

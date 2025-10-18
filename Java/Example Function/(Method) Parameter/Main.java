@@ -1,6 +1,6 @@
 public class Main {
-    static void parameter(String huruf) {
-        System.out.println("Contoh Parameter : " + huruf);
+    static void parameter(String varlttr) {
+        System.out.println("Example Parameter : " + varlttr);
     }
 
     public static void main(String[] args) {

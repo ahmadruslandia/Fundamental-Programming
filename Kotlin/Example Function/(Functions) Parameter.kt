@@ -1,5 +1,5 @@
-fun parameter(huruf: String) {
-        println("Contoh Parameter : " + huruf)
+fun parameter(varlttr: String) {
+        println("Example Parameter : " + varlttr)
 }
 
 fun main(args: Array<String>) {

@@ -2,15 +2,15 @@
 <html>
 
 <head>
-	<title>Contoh Pengembalian Data Array</title>
+	<title>Example Return Data Array</title>
 </head>
 
 <body>
 
 	<?php
-	$huruf = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
-	echo "Huruf : " . $huruf[1] . "<br>";
-	echo "Huruf : " . $huruf[9] . "<br>";
+	$varlttr = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
+	echo "Letter : " . $varlttr[1] . "<br>";
+	echo "Letter : " . $varlttr[9] . "<br>";
 	?>
 
 </body>

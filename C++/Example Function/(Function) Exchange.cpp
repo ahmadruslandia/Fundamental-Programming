@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void tukar(int& a, int& b) {
+void exchange(int& a, int& b) {
 	int temp;
 	temp = a;
 	a = b;
@@ -18,6 +18,6 @@ int main() {
 	a = 1;
 	b = 2;
 
-	tukar(a, b);
+	exchange(a, b);
 
 }

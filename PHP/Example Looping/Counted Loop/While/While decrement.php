@@ -11,7 +11,7 @@
 	$i = 10;
 
 	while ($i > 0) {
-		echo "Perulangan While - $i <br>";
+		echo "Looping While - $i <br>";
 		$i--;
 	}
 	?>

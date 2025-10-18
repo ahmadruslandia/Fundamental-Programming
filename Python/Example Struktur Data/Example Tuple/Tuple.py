@@ -1,5 +1,5 @@
-﻿huruf = ('a', 'b', 'c')
+﻿varlttr = ('a', 'b', 'c')
 
-print("Huruf :",huruf[0])
-print("Huruf :",huruf[1])
-print("Huruf :",huruf[2])
+print("Letter :",varlttr[0])
+print("Letter :",varlttr[1])
+print("Letter :",varlttr[2])

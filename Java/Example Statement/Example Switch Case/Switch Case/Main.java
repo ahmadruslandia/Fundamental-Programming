@@ -2,31 +2,31 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String pilihan;
+        String varchc;
         Scanner terminalInput = new Scanner(System.in);
 
         System.out.println("Menu\n");
-        System.out.println("1. Contoh Ke Satu     ");
-        System.out.println("2. Contoh Ke Dua      ");
-        System.out.println("3. Contoh Ke Tiga     ");
-        System.out.println("3. Contoh Ke Empat  \n");
-        System.out.print("Masukan Pilihan : ");
-        pilihan = terminalInput.next();
-        switch (pilihan) {
+        System.out.println("1. First Example       ");
+        System.out.println("2. Second Example      ");
+        System.out.println("3. Third Example       ");
+        System.out.println("3. Fourth Example    \n");
+        System.out.print("Enter your Choice : ");
+        varchc = terminalInput.next();
+        switch (varchc) {
             case "1":
-                System.out.println("Contoh Ke-1 Berhasil Dicoba");
+                System.out.println("Example 1st Succeed");
                 break;
             case "2":
-                System.out.println("Contoh Ke-2 Berhasil Dicoba");
+                System.out.println("Example 2nd Succeed");
                 break;
             case "3":
-                System.out.println("Contoh Ke-3 Berhasil Dicoba");
+                System.out.println("Example 3rd Succeed");
                 break;
             case "4":
-                System.out.println("Contoh Ke-4 Berhasil Dicoba");
+                System.out.println("Example 4th Succeed");
                 break;
             default:
-                System.err.println("Masukkan Pilihan Dengan Benar");
+                System.err.println("Enter your Choice Correctly");
                 break;
         }
     }

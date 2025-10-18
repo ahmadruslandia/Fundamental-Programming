@@ -1,4 +1,4 @@
 ﻿def prin():
-    print ("Contoh Fungsi")
+    print ("Example Function")
 
 prin()

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Contoh Fungsi</title>
+	<title>Example Functions</title>
 </head>
 
 <body>
@@ -10,7 +10,7 @@
 	<?php
 	function prin()
 	{
-		echo "Contoh Fungsi";
+		echo "Example Function";
 	}
 	prin();
 	?>

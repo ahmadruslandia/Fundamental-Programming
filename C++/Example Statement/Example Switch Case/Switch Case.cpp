@@ -4,35 +4,35 @@ using namespace std;
 
 int main() {
 	
-int pilihan;
+int varchc;
     
     cout << "Menu :\n" << endl;
-    cout << "1. Contoh Ke Satu           " << endl;
-    cout << "2. Contoh Ke Dua            " << endl;
-    cout << "3. Contoh Ke Tiga           " << endl;
-    cout << "4. Contoh Ke Empat	         \n" << endl;
-    cout << "Masukan Pilihan : "; 
-    cin >> pilihan;
-    switch (pilihan)
+    cout << "1. First Example           " << endl;
+    cout << "2. Second Example          " << endl;
+    cout << "3. Third Example           " << endl;
+    cout << "4. Fourth Example        \n" << endl;
+    cout << "Enter your Choice : "; 
+    cin >> varchc;
+    switch (varchc)
     {
         case 1: {
-			cout << "Contoh Ke-1 Berhasil Dicoba" << endl;
+			cout << "Example 1st Succeed" << endl;
        	    break;
     	}
 		case 2: {
-            cout << "Contoh Ke-2 Berhasil Dicoba" << endl;
+            cout << "Example 2nd Succeed" << endl;
             break;
        	}
       	case 3: {
-        	cout << "Contoh Ke-3 Berhasil Dicoba" << endl;
+        	cout << "Example 3rd Succeed" << endl;
             break;
         }
         case 4: {
-        	cout << "Contoh Ke-4 Berhasil Dicoba" << endl;
+        	cout << "Example 4th Succeed" << endl;
         	break;
         }
     	default: {
-            cout << "Masukkan Pilihan Dengan Benar" << endl;
+            cout << "Enter your Choice Correctly" << endl;
             break;
         }
     }

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Contoh Pertambahan</title>
+	<title>Example Addition</title>
 </head>
 
 <body>
@@ -10,11 +10,11 @@
 	<?php
 	$a = $b = "";
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$a = pertambahan($_POST["a"]);
-		$b = pertambahan($_POST["b"]);
+		$a = addition($_POST["a"]);
+		$b = addition($_POST["b"]);
 	}
 
-	function pertambahan($data)
+	function addition($data)
 	{
 		$data = trim($data);
 		$data = stripslashes($data);
@@ -23,12 +23,12 @@
 	}
 	?>
 
-	<h3>Pertambahan</h3>
+	<h3>Addition</h3>
 	<br>
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Angka : <input type="text" name="a">
+		Number : <input type="text" name="a">
 		<br><br>
-		Angka : <input type="text" name="b">
+		Number : <input type="text" name="b">
 		<br><br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
@@ -37,7 +37,7 @@
 	echo "<br><br>";
 	echo "--------- +";
 	echo "<br>";
-	echo "Hasil : ", $a + $b, "<br>";
+	echo "Result : ", $a + $b, "<br>";
 	?>
 
 </body>

@@ -4,79 +4,79 @@ namespace Main
 {
     class main
     {
-        static void pertambahan(int a, int b)
+        static void addition(int a, int b)
         {
             Console.WriteLine("--------- +");
-            Console.WriteLine($"Hasil : {a + b}");
+            Console.WriteLine($"Result : {a + b}");
         }
-        static void pengurangan(int a, int b)
+        static void subtraction(int a, int b)
         {
             Console.WriteLine("--------- -");
-            Console.WriteLine($"Hasil : {a - b}");
+            Console.WriteLine($"Result : {a - b}");
         }
-        static void perkalian(int a, int b)
+        static void multiplication(int a, int b)
         {
             Console.WriteLine("--------- *");
-            Console.WriteLine($"Hasil : {a * b}");
+            Console.WriteLine($"Result : {a * b}");
         }
-        static void pembagian(int a, int b)
+        static void division(int a, int b)
         {
             Console.WriteLine("--------- :");
-            Console.WriteLine($"Hasil : {a / b}");
+            Console.WriteLine($"Result : {a / b}");
         }
 
         static void Main(string[] args)
         {
             int a, b;
-            int pilihan;
+            int varchc;
 
             Console.WriteLine("Menu\n");
-            Console.WriteLine("1. Pertambahan");
-            Console.WriteLine("2. Pengurangan");
-            Console.WriteLine("3. Perkalian");
-            Console.WriteLine("4. Pembagian \n");
-            Console.Write("Masukkan Pilihan : ");
-            pilihan = int.Parse(Console.ReadLine());
+            Console.WriteLine("1. Addition");
+            Console.WriteLine("2. Subtraction");
+            Console.WriteLine("3. Multiplication");
+            Console.WriteLine("4. Division \n");
+            Console.Write("Enter : ");
+            varchc = int.Parse(Console.ReadLine());
 
-            if (pilihan == 1)
+            if (varchc == 1)
             {
-                Console.WriteLine("\nSilahkan Masukkan Angka \n");
-                Console.Write("Angka : ");
+                Console.WriteLine("\nPlease Enter Number \n");
+                Console.Write("Number : ");
                 a = int.Parse(Console.ReadLine());
-                Console.Write("Angka : ");
+                Console.Write("Number : ");
                 b = int.Parse(Console.ReadLine());
-                pertambahan(a, b);
+                addition(a, b);
             }
-            else if (pilihan == 2)
+            else if (varchc == 2)
             {
-                Console.WriteLine("\nSilahkan Masukkan Angka \n");
-                Console.Write("Angka : ");
+                Console.WriteLine("\nPlease Enter Number \n");
+                Console.Write("Number : ");
                 a = int.Parse(Console.ReadLine());
-                Console.Write("Angka : ");
+                Console.Write("Number : ");
                 b = int.Parse(Console.ReadLine());
-                pengurangan(a, b);
+                subtraction(a, b);
             }
-            else if (pilihan == 3)
+            else if (varchc == 3)
             {
-                Console.WriteLine("\nSilahkan Masukkan Angka \n");
-                Console.Write("Angka : ");
+                Console.WriteLine("\nPlease Enter Number \n");
+                Console.Write("Number : ");
                 a = int.Parse(Console.ReadLine());
-                Console.Write("Angka : ");
+                Console.Write("Number : ");
                 b = int.Parse(Console.ReadLine());
-                perkalian(a, b);
+                multiplication(a, b);
             }
-            else if (pilihan == 4)
+            else if (varchc == 4)
             {
-                Console.WriteLine("\nSilahkan Masukkan Angka \n");
-                Console.Write("Angka : ");
+                Console.WriteLine("\nPlease Enter Number \n");
+                Console.Write("Number : ");
                 a = int.Parse(Console.ReadLine());
-                Console.Write("Angka : ");
+                Console.Write("Number : ");
                 b = int.Parse(Console.ReadLine());
-                pembagian(a, b);
+                division(a, b);
             }
             else
             {
-                Console.WriteLine("Masukkan pilihan (1..4)");
+                Console.WriteLine("Enter Your Choice (1..4)");
             }
         }
     }

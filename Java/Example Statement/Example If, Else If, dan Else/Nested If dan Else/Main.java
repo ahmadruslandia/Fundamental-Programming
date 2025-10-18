@@ -13,14 +13,14 @@ public class Main {
 
         if (data1.equalsIgnoreCase("user1")){
             if (data2.equalsIgnoreCase("psw123")){
-                System.out.println("\nanda berhasil mencoba");
+                System.out.println("\nyou succeeded");
             }
             else {
-                System.out.println("\npassword salah");
+                System.out.println("\nwrong password");
             }
         }
         else {
-            System.out.println("\nusername anda salah");
+            System.out.println("\nwrong username");
         }
     }
 }

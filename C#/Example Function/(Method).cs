@@ -6,7 +6,7 @@ namespace Main
     {
         static void prin()
         {
-            Console.WriteLine("Contoh Fungsi");
+            Console.WriteLine("Example Function");
         }
 
         static void Main(string[] args)

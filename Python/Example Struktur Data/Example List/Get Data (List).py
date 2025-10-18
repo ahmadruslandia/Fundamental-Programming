@@ -1,4 +1,4 @@
-﻿huruf = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+﻿varlttr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
 
-print("Huruf : ",huruf[1])
-print("Huruf : ",huruf[9])
+print("Letter : ",varlttr[1])
+print("Letter : ",varlttr[9])

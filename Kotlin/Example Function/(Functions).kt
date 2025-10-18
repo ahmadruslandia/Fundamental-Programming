@@ -3,5 +3,5 @@ fun prin(fprin: String) {
 }
 
 fun main(args: Array<String>) {
-        prin("Contoh Fungsi")
+        prin("Example Function")
 }

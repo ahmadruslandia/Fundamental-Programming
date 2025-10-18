@@ -7,7 +7,9 @@ namespace Main
         static void Main(string[] args)
         {
             int varchc;
-
+            do
+            {
+            Console.Clear();
             Console.WriteLine("Menu :\n");
             Console.WriteLine("1. First Example            ");
             Console.WriteLine("2. Second Example           ");
@@ -19,22 +21,28 @@ namespace Main
             switch (varchc)
             {
                 case 1:
+                    Console.Clear();
                     Console.WriteLine("Example 1st Succeed");
                     break;
                 case 2:
+                    Console.Clear();
                     Console.WriteLine("Example 2nd Succeed");
                     break;
                 case 3:
+                    Console.Clear();
                     Console.WriteLine("Example 3rd Succeed");
                     break;
                 case 4:
+                    Console.Clear();
                     Console.WriteLine("Example 4th Succeed");
                     break;
                 default:
+                    Console.Clear();
                     Console.WriteLine("Enter your Choice Correctly");
                     break;
             }
-
+            char ch1 = Console.ReadKey(false).KeyChar;
+            } while (varchc != 5);
         }
     }
 }

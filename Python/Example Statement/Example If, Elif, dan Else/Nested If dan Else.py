@@ -4,8 +4,8 @@ data2 = input("password : ")
 
 if data1 == "user1":
    if data2 == "psw123":
-      print("\nanda berhasil mencoba")
+      print("\nyou succeeded")
    else:
-      print("\npassword salah")
+      print("\nwrong password")
 else:
-   print("\nusername anda salah")
+   print("\nwrong username")

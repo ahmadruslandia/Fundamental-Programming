@@ -4,21 +4,21 @@ fun main(args: Array<String>) {
     var input = Scanner(System.`in`)
 
     println("Menu \n")
-    println("Masukan Angka : 1 Contoh Statement When 1")
-    println("Masukan Angka : 2 Contoh Statement When 2")
-    println("Masukan Angka : 3 Contoh Statement When 3")
-    println("Masukan Angka : 4 Contoh Statement When 4")
-    println("Masukan Angka Selain 1, 2, 3 dan 4 Untuk Contoh Invalid Statement\n")
-    print("Silahkan Masukan Angka : ")
+    println("Enter 1 : to Statement When First Example  ")
+    println("Enter 2 : to Statement When Second Example ")
+    println("Enter 3 : to Statement When Third Example  ")
+    println("Enter 4 : to Statement When Fourth Example ")
+    println("Enter Number other 1, 2, 3 and 4 for Example Invalid Statement\n")
+    print("Enter your Choice : ")
     var number = input.nextInt()
 
 
     val result = when (number) {
-        1 -> "\nini Adalah Contoh Statement 1"
-        2 -> "\nini Adalah Contoh Statement 2"
-        3 -> "\nini Adalah Contoh Statement 3"
-        4 -> "\nini Adalah Contoh Statement 4"
-        else -> "\nini Adalah Contoh Invalid Statement"
+        1 -> "\nExample 1st Statement Succeed"
+        2 -> "\nExample 2nd Statement Succeed"
+        3 -> "\nExample 3rd Statement Succeed"
+        4 -> "\nExample 4th Statement Succeed"
+        else -> "\nExample Invalid Statement"
     }
 
     println(result)

@@ -9,7 +9,7 @@ namespace Main
             int i = 10;
             while (i > 0)
             {
-                Console.WriteLine($"Perulangan While - {i}");
+                Console.WriteLine($"Looping While - {i}");
                 i--;
             }
         }

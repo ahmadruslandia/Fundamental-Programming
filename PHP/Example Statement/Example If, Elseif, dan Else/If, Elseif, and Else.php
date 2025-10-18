@@ -2,16 +2,16 @@
 <html>
 
 <head>
-	<title>Contoh If, Elseif dan Else</title>
+	<title>Example If, Elseif and Else</title>
 </head>
 
 <body>
 
 	<?php
-	$pil = "";
+	$varchc = "";
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$pil = test_input($_POST["pil"]);
+		$varchc = test_input($_POST["varchc"]);
 	}
 
 	function test_input($data)
@@ -25,27 +25,27 @@
 	<tr>
 		<td>Menu :</td>
 		<td><br><br></td>
-		<td>Masukan Angka : 1 Contoh If</td>
+		<td>Enter Number : 1 for Example If</td>
 		<td><br></td>
-		<td>Masukan Angka : 2 Contoh Elseif</td>
+		<td>Enter Number : 2 for Example ElseIf</td>
 		<td><br></td>
-		<td>Masukan Angka Selain 1 dan 2 Untuk Contoh Else</td>
+		<td>Enter Number other 1 and 2 for Example Else</td>
 		<td><br><br></td>
 	</tr>
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Silahkan Masukan Angka : <input type="text" name="pil">
+		Please Enter Number : <input type="text" name="varchc">
 		<br>
 		<br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
 
 	<?php
-	if ($pil == "1") {
-		echo "<br> ini Adalah Contoh If";
-	} elseif ($pil == "2") {
-		echo "<br> ini Adalah Contoh Elseif";
+	if ($varchc == "1") {
+		echo "<br> Example If";
+	} elseif ($varchc == "2") {
+		echo "<br> Example Elseif";
 	} else {
-		echo "<br> ini Adalah Contoh Else";
+		echo "<br> Example Else";
 	}
 	?>
 

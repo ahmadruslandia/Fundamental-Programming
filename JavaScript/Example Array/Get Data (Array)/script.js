@@ -1,14 +1,14 @@
-const huruf = [];
-huruf[0] = "a";
-huruf[1] = "b";
-huruf[2] = "c"; 
-huruf[3] = "d"; 
-huruf[4] = "e"; 
-huruf[5] = "f"; 
-huruf[6] = "g"; 
-huruf[7] = "h"; 
-huruf[8] = "i"; 
-huruf[9] = "j"; 
+const letter = [];
+letter[0] = "a";
+letter[1] = "b";
+letter[2] = "c"; 
+letter[3] = "d"; 
+letter[4] = "e"; 
+letter[5] = "f"; 
+letter[6] = "g"; 
+letter[7] = "h"; 
+letter[8] = "i"; 
+letter[9] = "j"; 
 
-document.getElementById("hrf1").innerHTML = "Huruf: " + huruf[1] + "<br>";
-document.getElementById("hrf9").innerHTML = "Huruf: " + huruf[9] + "<br>";
+document.getElementById("lttr1").innerHTML = "Letter: " + letter[1] + "<br>";
+document.getElementById("lttr9").innerHTML = "Letter: " + letter[9] + "<br>";

@@ -11,13 +11,13 @@ fun main(args: Array<String>) {
 
     if (data1.equals("user1")){
         if (data2.equals("psw123")){
-            println("\nanda berhasil mencoba")
+            println("\nyou succeeded")
         }
         else{
-            println("\npassword salah")
+            println("\nwrong password")
         }
     }
     else {
-        println("\niusername anda salah")
+        println("\nwrong username")
     }
 }

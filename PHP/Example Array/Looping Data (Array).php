@@ -2,15 +2,15 @@
 <html>
 
 <head>
-	<title>Contoh Perulangan Data Array</title>
+	<title>Example Looping Data Array</title>
 </head>
 
 <body>
 
 	<?php
-	$huruf = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
+	$varlttr = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
 	for ($i = 0; $i < 10; $i++) {
-		echo "Huruf : " . $huruf[$i] . "<br>";
+		echo "Letter : " . $varlttr[$i] . "<br>";
 	}
 	?>
 

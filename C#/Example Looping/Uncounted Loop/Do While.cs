@@ -6,21 +6,21 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            char ulang = 'y';
+            char vartry = 'y';
             int i = 0;
 
             do
             {
                 Console.WriteLine();
-                Console.WriteLine("Masukkan huruf y untuk contoh perulangan");
+                Console.WriteLine("Enter y for Example");
                 Console.WriteLine();
-                Console.Write("Masukkan huruf : ");
-                ulang = char.Parse(Console.ReadLine());
+                Console.Write("Enter : ");
+                vartry = char.Parse(Console.ReadLine());
                 i++;
-            } while (ulang == 'y');
+            } while (vartry == 'y');
 
             Console.WriteLine();
-            Console.WriteLine("Selesai");
+            Console.WriteLine("Done");
 
         }
     }

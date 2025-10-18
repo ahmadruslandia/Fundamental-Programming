@@ -14,14 +14,14 @@ int main()
 
 	if (data1 == "user1") {
 		if (data2 == "psw123") {
-			cout << "\nanda berhasil mencoba" << endl;
+			cout << "\nyou succeeded" << endl;
 		}
 		else {
-			cout << "\npassword salah" << endl;
+			cout << "\nwrong password" << endl;
 		}
 	}
 	else {
-		cout << "\nusername anda salah" << endl;
+		cout << "\nwrong username" << endl;
 	}
 
 	return 0;

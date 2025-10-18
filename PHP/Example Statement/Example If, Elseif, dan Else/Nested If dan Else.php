@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Contoh If, Elseif dan Else</title>
+	<title>Example If, Elseif and Else</title>
 </head>
 
 <body>
@@ -33,12 +33,12 @@
 	<?php
 	if ($data1 == "user1") {
 		if ($data2 == "psw123") {
-			echo "<br>anda berhasil mencoba";
+			echo "<br>you succeeded";
 		} else {
-			echo "<br>password salah";
+			echo "<br>wrong password";
 		}
 	} else {
-		echo "<br>username anda salah";
+		echo "<br>wrong username";
 	}
 	?>
 

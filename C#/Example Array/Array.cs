@@ -6,10 +6,10 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            char[] huruf = { 'a', 'b', 'c' };
-            Console.WriteLine($"Huruf : {huruf[0]}");
-            Console.WriteLine($"Huruf : {huruf[1]}");
-            Console.WriteLine($"Huruf : {huruf[2]}");
+            char[] varlttr = { 'a', 'b', 'c' };
+            Console.WriteLine($"Letter : {varlttr[0]}");
+            Console.WriteLine($"Letter : {varlttr[1]}");
+            Console.WriteLine($"Letter : {varlttr[2]}");
         }
     }
 }

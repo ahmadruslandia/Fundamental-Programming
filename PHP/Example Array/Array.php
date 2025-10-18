@@ -2,16 +2,16 @@
 <html>
 
 <head>
-	<title>Contoh Array</title>
+	<title>Example Array</title>
 </head>
 
 <body>
 
 	<?php
-	$huruf = array("a", "b", "c");
-	echo "Huruf : " . $huruf[0] . "<br>";
-	echo "Huruf : " . $huruf[1] . "<br>";
-	echo "Huruf : " . $huruf[2] . "<br>";
+	$varlttr = array("a", "b", "c");
+	echo "Letter : " . $varlttr[0] . "<br>";
+	echo "Letter : " . $varlttr[1] . "<br>";
+	echo "Letter : " . $varlttr[2] . "<br>";
 	?>
 
 </body>

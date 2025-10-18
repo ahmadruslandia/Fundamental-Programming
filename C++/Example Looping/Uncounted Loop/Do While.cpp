@@ -3,20 +3,20 @@ using namespace std;
 
 int main(){
 	
-	char ulang = 'y';
+	char vartry = 'y';
 	int i = 0;
 	
 	do {
 	cout << " " << endl;
-	cout << "Masukkan huruf y untuk contoh perulangan" << endl;
+	cout << "Enter y for Example" << endl;
 	cout << " " << endl;
-	cout << "Masukkan huruf : ";
-	cin >> ulang;
+	cout << "Enter : ";
+	cin >> vartry;
 	i++;
-	}while(ulang == 'y');
+	}while(vartry == 'y');
 	
 	cout << " " << endl;
-	cout << "Selesai" << endl;
+	cout << "Done" << endl;
 
 	return 0;
 }

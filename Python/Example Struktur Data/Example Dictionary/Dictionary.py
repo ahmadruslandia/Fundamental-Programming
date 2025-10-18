@@ -1,23 +1,23 @@
-﻿def satu():
-    return "Contoh Ke-1 Berhasil Dicoba"
-def dua():
-    return "Contoh Ke-2 Berhasil Dicoba"
-def tiga():
-    return "Contoh Ke-3 Berhasil Dicoba"
-def empat():
-    return "Contoh Ke-4 Berhasil Dicoba"
+﻿def first():
+    return "The First Example Succeeded"
+def second():
+    return "The Second Example Succeeded"
+def third():
+    return "The Third Example Succeeded"
+def fourth():
+    return "The Fourth Example Succeeded"
 def default():
-    return "Masukkan Pilihan Dengan Benar"
+    return "Enter your Choice Correctly"
 
 dict = {
-    1: satu,
-    2: dua,
-    3: tiga,
-    4: empat,
+    1: first,
+    2: second,
+    3: third,
+    4: fourth,
     }
 
-def switch(angka):
-    return dict.get(angka, default)()
+def switch(varchc):
+    return dict.get(varchc, default)()
 
 print(switch(1))
 print(switch(2))

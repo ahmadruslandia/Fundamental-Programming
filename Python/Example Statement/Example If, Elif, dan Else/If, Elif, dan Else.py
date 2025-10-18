@@ -1,12 +1,12 @@
 ﻿print("Menu: \n")
-print("Masukan Angka : 1 Contoh If")
-print("Masukan Angka : 2 Contoh Elif")
-print("Masukan Angka Selain 1 dan 2 Untuk Contoh Else \n")
-pil = input("Silahkan Masukan Angka : ")
+print("Enter Number : 1 for Example If")
+print("Enter Number : 2 for Example Elif")
+print("Enter Number other 1 and 2 for Example Else\n")
+pil = input("Please Enter Number : ")
 
 if pil == "1":
-   print("\nini Adalah Contoh If")
+   print("\nExample If")
 elif pil == "2":
-   print("\nini Adalah Contoh Elif")
+   print("\nExample Else If")
 else:
-   print("\nini Adalah Contoh Else")
+   print("\nExample Else")

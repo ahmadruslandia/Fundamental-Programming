@@ -4,9 +4,9 @@ namespace Main
 {
     class main
     {
-        static void parameter(string huruf)
+        static void parameter(string varlttr)
         {
-            Console.WriteLine("Contoh Parameter : " + huruf);
+            Console.WriteLine("Example Parameter : " + varlttr);
         }
 
         static void Main(string[] args)

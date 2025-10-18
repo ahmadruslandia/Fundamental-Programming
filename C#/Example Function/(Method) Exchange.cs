@@ -4,7 +4,7 @@ namespace Main
 {
     class main
     {
-        static void tukar(int a, int b)
+        static void exchange(int a, int b)
         {
             int temp;
             temp = a;
@@ -23,7 +23,7 @@ namespace Main
             a = 1;
             b = 2;
 
-            tukar(a, b);
+            exchange(a, b);
         }
     }
 }

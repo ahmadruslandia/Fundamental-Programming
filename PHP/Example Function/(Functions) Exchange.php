@@ -2,13 +2,13 @@
 <html>
 
 <head>
-	<title>Contoh Fungsi Tukar</title>
+	<title>Example Exchange</title>
 </head>
 
 <body>
 
 	<?php
-	function tukar($a, $b)
+	function exchange($a, $b)
 	{
 		$temp = $a;
 		$a = $b;
@@ -23,7 +23,7 @@
 	$a = 1;
 	$b = 2;
 
-	tukar($a, $b)
+	exchange($a, $b)
 	?>
 
 </body>

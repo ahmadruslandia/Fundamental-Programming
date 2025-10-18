@@ -18,16 +18,16 @@ namespace Main
             {
                 if (data2 == "psw123")
                 {
-                    Console.WriteLine("\nanda berhasil mencoba");
+                    Console.WriteLine("\nyou succeeded");
                 }
                 else
                 {
-                    Console.WriteLine("\npassword salah");
+                    Console.WriteLine("\nwrong password");
                 }
             }
             else
             {
-                Console.WriteLine("\nusername anda salah");
+                Console.WriteLine("\nwrong username");
             }
 
         }

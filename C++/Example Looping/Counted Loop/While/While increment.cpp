@@ -6,7 +6,7 @@ int main(){
 	int i = 0;
 	
 	while(i < 10){
-	cout << "Perulangan While - " << i << endl;
+	cout << "Looping While - " << i << endl;
 	i++;
 	}
 

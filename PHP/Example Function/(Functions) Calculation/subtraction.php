@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Contoh Pengurangan</title>
+	<title>Example Subtraction</title>
 </head>
 
 <body>
@@ -10,11 +10,11 @@
 	<?php
 	$a = $b = "";
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$a = pengurangan($_POST["a"]);
-		$b = pengurangan($_POST["b"]);
+		$a = subtraction($_POST["a"]);
+		$b = subtraction($_POST["b"]);
 	}
 
-	function pengurangan($data)
+	function subtraction($data)
 	{
 		$data = trim($data);
 		$data = stripslashes($data);
@@ -23,12 +23,12 @@
 	}
 	?>
 
-	<h3>Pengurangan</h3>
+	<h3>Subtraction</h3>
 	<br>
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-		Angka : <input type="text" name="a">
+		Number : <input type="text" name="a">
 		<br><br>
-		Angka : <input type="text" name="b">
+		Number : <input type="text" name="b">
 		<br><br>
 		<input type="submit" name="submit" value="Submit">
 	</form>
@@ -37,7 +37,7 @@
 	echo "<br><br>";
 	echo "--------- -";
 	echo "<br>";
-	echo "Hasil : ", $a - $b, "<br>";
+	echo "Result : ", $a - $b, "<br>";
 	?>
 
 </body>

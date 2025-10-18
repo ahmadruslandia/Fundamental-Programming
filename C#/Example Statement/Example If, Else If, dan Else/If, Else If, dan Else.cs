@@ -6,26 +6,26 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            int pil;
+            int varchc;
 
             Console.WriteLine("Menu :\n");
-            Console.WriteLine("Masukan Angka : 1 Contoh If");
-            Console.WriteLine("Masukan Angka : 2 Contoh Else If");
-            Console.WriteLine("Masukan Angka Selain 1 dan 2 Untuk Contoh Else\n");
-            Console.Write("Silahkan Masukan Angka : ");
-            pil = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Number : 1 for Example If");
+            Console.WriteLine("Enter Number : 2 for Example Else If");
+            Console.WriteLine("Enter Number other 1 and 2 for Example Else\n");
+            Console.Write("Please Enter Number : ");
+            varchc = int.Parse(Console.ReadLine());
 
-            if (pil == 1)
+            if (varchc == 1)
             {
-                Console.WriteLine("\nini Adalah Contoh If");
+                Console.WriteLine("\nExample If");
             }
-            else if (pil == 2)
+            else if (varchc == 2)
             {
-                Console.WriteLine("\nini Adalah Contoh Else If");
+                Console.WriteLine("\nExample Else If");
             }
             else
             {
-                Console.WriteLine("\nini Adalah Contoh Else");
+                Console.WriteLine("\nExample Else");
             }
 
         }

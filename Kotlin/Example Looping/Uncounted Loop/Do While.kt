@@ -2,25 +2,25 @@ import java.util.Scanner
 
 fun main(args: Array<String>) {
     var input = Scanner(System.`in`)
-    var ulang = true
+    var vartry = true
     var i = 0
     
     do {
         println(" ")
-        println("Masukkan huruf y untuk contoh perulangan")
+        println("Enter y for Example")
         println(" ")
-        print("Masukkan huruf : ")
-        var jawab = input.next()
+        print("Enter :  ")
+        var varchc = input.next()
 
-        if( jawab.equals("y") ){
-            ulang = true
+        if( varchc.equals("y") ){
+            vartry = true
         }
         else{
-            ulang = false
+            vartry = false
         }
         i++
-    }while (ulang)
+    }while (vartry)
     println(" ")
-    println("Selesai")
+    println("Done")
 
 }
