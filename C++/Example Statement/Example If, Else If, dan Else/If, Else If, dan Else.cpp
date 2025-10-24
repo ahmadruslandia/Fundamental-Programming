@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-	int pil;
+	int varchc;
 	cout << "Menu :\n" << endl;
 	cout << "Enter Number : 1 for Example If" << endl;
 	cout << "Enter Number : 2 for Example Else If" << endl;
 	cout << "Enter Number other 1 and 2 for Example Else\n" << endl;
 	cout << "Please Enter Number : ";
-	cin >> pil;
+	cin >> varchc;
 
-	if (pil == 1) {
+	if (varchc == 1) {
 		cout << "\nExample If" << endl;
 	}
-	else if (pil == 2) {
+	else if (varchc == 2) {
 		cout << "\nExample Else If" << endl;
 	}
 	else {

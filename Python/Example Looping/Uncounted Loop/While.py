@@ -1,11 +1,11 @@
-﻿ulang = 'y'
+﻿vartry = 'y'
 
 while(True):
     print(" ")
     print("Enter y for Example")
     print(" ")
-    ulang = input("Enter : ")
-    if ulang != 'y':
+    vartry = input("Enter : ")
+    if vartry != 'y':
         print(" ")
         print("Done")
         break
